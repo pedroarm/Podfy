@@ -1,0 +1,41 @@
+.inputBlock {
+  position: relative;
+  width: 100%;
+
+  label {
+    font-size: 1rem;
+    color: #DFDFDF;
+  }
+
+  input {
+    width: 100%;
+    height: 3rem;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+    background: #000F1A;
+    outline: 0;
+    border: none;
+    padding: 1.8rem 1.6rem;
+    font-size: 1rem;
+    color: #EBEBEB;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #B7B7B7;
+  }
+  
+}
+.inputBlock + .inputBlock {
+  margin-top: 1rem;
+}
+
+.inputBlock:focus-within::after {
+  // width: (100% - 3.2rem);
+  height: 2px;
+  content: "";
+  background: #EBEBEB;
+  position: absolute;
+  left: 1.6rem;
+  right: 1.6rem;
+  bottom: 0;
+}
