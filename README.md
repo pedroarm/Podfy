@@ -22,6 +22,7 @@
 First, you need install the dependencies.
 ```bash
 To install:
+
 $ npm install
 # or
 $ yarn
@@ -29,6 +30,8 @@ $ yarn
 
 Now run the project in development mode.
 ```bash
+To homologate:
+
 $ npm run dev
 # or
 $ yarn dev
